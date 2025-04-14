@@ -1,0 +1,79 @@
+/* Import Inter font to match PDF */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 800px;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 4px solid #FFD700; /* gold/yellow line */
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.left-info h1 {
+    font-size: 2em;
+    font-weight: 800;
+    margin: 0;
+}
+
+.left-info h2 {
+    font-size: 1.2em;
+    font-weight: 600;
+    margin: 5px 0 15px 0;
+}
+
+.left-info p {
+    margin: 4px 0;
+}
+
+.profile-image img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.section {
+    margin-bottom: 25px;
+}
+
+.section h3 {
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #FFD700;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+.section p {
+    margin: 0;
+    font-size: 0.95em;
+    line-height: 1.6;
+}
+
+.section ul {
+    padding-left: 20px;
+    margin: 0;
+    font-size: 0.95em;
+    line-height: 1.6;
+}
+
+.section li {
+    margin-bottom: 5px;
+}
